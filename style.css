@@ -1,0 +1,288 @@
+body{
+
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        margin: 0;
+}
+.firstNav{
+    overflow: hidden;
+    background-color: rgb(80, 78, 75);
+    -pie-background: rgba(243, 99, 46,0.5);
+    behavior: url(PIE.htc);
+    height:38px;
+    
+  }
+  .firstNav a {
+    position: relative;
+    display: inline-block;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    z-index: 1;
+    font-family: 'Tw Cen Mt';
+    
+  }
+  
+  .firstNav a:hover {
+  
+    color: rgb(238, 137, 13);
+    text-decoration: none;
+  }
+  
+  .firstNav a.active {
+      color: rgb(0, 0, 0);
+      text-decoration: none;
+  }
+  .firstNav #searchBar{
+      position: absolute;
+      right:10px;
+      margin-top: 6px;
+      font-family: 'News Cycle'
+      
+  }
+    #searchBar input:invalid ~ span:after {
+    content: '✖';
+    padding-left: 5px;
+    position: absolute:
+}
+
+    #searchBar input:valid ~ span:after {
+    content: '✓';
+    padding-left: 5px;
+    position: absolute:
+}
+  .secNav{
+    overflow: hidden;
+    background-color: rgb(255, 251, 251);
+    -pie-background: rgba(243, 99, 46,0.5);
+    behavior: url(PIE.htc);
+    height:50px;
+    
+  }
+  .secNav a {
+    position: relative;
+    display: inline-block;
+    color: rgb(238, 137, 13);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 26px;
+    font-family: 'Poiret One';
+    font-weight: bold;
+    
+  }
+  
+  .secNav a:hover {
+  
+    color: black;
+    text-decoration: none;
+  }
+  
+  .secNav a.active {
+      color: rgb(0, 0, 0);
+      text-decoration: none;
+  }
+  .secNav #midLink{
+      position: relative;
+      right:150px;
+      z-index: 0;
+  }
+  .secNav #midLinks{
+      position: relative;
+      left: 50px;
+      z-index: 0;
+  }
+  .secNav img{
+      max-width:13%;
+      position: absolute;
+      left:598px;
+  }
+  .thirdNav{
+    overflow: hidden;
+    background-color: rgb(241, 241, 241);
+    -pie-background: rgba(243, 99, 46,0.5);
+    behavior: url(PIE.htc);
+    height:50px;
+    
+  }
+  .thirdNav a {
+    position: relative;
+    display: inline-block;
+    color: rgb(238, 137, 13);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    z-index: 1;
+    font-family: 'Roboto Light';
+    font-weight: bold;
+    margin-left:30px;
+    margin-right: 30px;
+    
+  }
+  .thirdNav a:hover {
+    
+      color: black;
+      text-decoration: none;
+    }
+    
+    .thirdNav a.active {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+    }
+    .thirdNav #midLink{
+        position: relative;
+        right:80px;
+    }
+    .thirdNav #midLinks{
+        position: relative;
+        left: 250px;
+    }
+    .thirdNav #midLink1{
+        position: relative;
+        right:180px;
+    }
+    .coverPhoto img{
+        width:100%;
+        height:10%;
+    }
+    .mainContainer{
+        background: rgba(243, 141, 73,0.4);
+        padding:100px;
+        margin: 0;
+        max-width: 50.3%;
+        max-height: 300px;
+        position: relative;
+        top: 223px;
+        border-top-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+    }
+    #myCarousel{
+        max-width:380px;
+        position: relative;
+        right:60px;
+        bottom:50px;
+        margin:0;
+        }
+  .Caption{
+        background: white;
+        position: relative;
+        max-width: 100%;
+        max-height: 100%;
+
+    }
+/*.imageHolder {
+    position: relative;
+    width: 285px;
+    height: 175px;
+}
+.imageHolder .caption {
+    position: absolute;
+    width: 283px;
+    height: 50px;
+    bottom: 0px;
+    left: 0px;
+    color: #ffffff;
+    background: green;
+	text-align:center;
+	font-weight:bold;
+	opacity:0.7;
+} */  
+
+.Welcome-message{
+    position: relative;
+    font-size: 30px;
+    left: 780px;
+    bottom: 130px;
+    color: white;
+    font-family: 'Roboto';
+    animation: animatetop 1.5s;
+    animation-timing-function: ease-out;
+    width: 500px;
+    
+
+}
+.Welcome-message span{
+    color: rgb(238, 137, 13);
+    font-size: 33px;
+
+}
+@keyframes animatetop{
+    from{bottom: 160px;opacity:0} to{bottom:130px;opacity:1}
+  }
+@keyframes animateright{
+    from{opacity:0} to{opacity:1} 
+
+  }
+  .button {
+    
+    border-style:solid;
+    border-color: rgb(255, 255, 255);
+    border-width: 2px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: relative;
+    left:70%;
+    bottom: 100px;
+    font-family: 'Poiret One';
+    
+}
+.button:hover{
+    background:white;
+    text-decoration: none;
+    color: black;
+    -webkit-transition: background 1s ease-out;
+    -moz-transition: background 1s ease-out;
+    -ms-transition: background 1s ease-out;
+    -o-transition: background 1s ease-out;
+    transition: background 1s ease-out;
+}
+.container-1{
+    width: 300px;
+    vertical-align: middle;
+    white-space: nowrap;
+    float: right;
+    margin-right:20px;
+    
+  }
+  .container-1 input#search{
+    width: 300px;
+    height: 37px;
+    background: #2b303b;
+    border: none;
+    font-size: 12pt;
+    color: #63717f;
+    padding-left: 45px;
+    position: absolute;
+    right: 1px;
+    font-family: 'News Cycle';
+    
+    -webkit-transition: background .55s ease;
+  -moz-transition: background .55s ease;
+  -ms-transition: background .55s ease;
+  -o-transition: background .55s ease;
+  transition: background .55s ease;
+  }
+.search_icon{
+    position: relative;
+    bottom: 14px;
+    left:620px;
+    margin-left: 17px;
+    margin-top: 17px;
+    z-index: 1;
+    color: #4f5b66;
+    max-width:25px; 
+  }
+  .container-1 input#search:hover, .container-1 input#search:focus, .container-1 input#search:active{
+    outline:none;
+    background: #4f5b66;
+    color: rgb(223, 222, 222);
+  }
